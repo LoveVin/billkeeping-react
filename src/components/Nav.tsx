@@ -23,7 +23,7 @@ const NavWrapper = styled.div`
         .icon{
           width: 24px;
           height: 24px;
-          color: #b7b8bb;
+          fill: #b7b8bb;
         }
         &.selected{
           color: #ffaf3e;
