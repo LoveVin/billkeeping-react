@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import React from 'react';
 import Icon from './Icon';
+import 'helper.scss';
 
 const NavWrapper = styled.div`
   background: white;
