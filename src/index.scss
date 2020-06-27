@@ -38,8 +38,8 @@ body{
   height: 16px;
 }
 
-button{
-  font-family: inherit;
+button, input{
+  font: inherit;
 }
 
 :focus{
