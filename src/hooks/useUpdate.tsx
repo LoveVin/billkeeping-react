@@ -10,6 +10,7 @@ export const useUpdate = (fn: () => void, deps: any[]) => {
             fn();
             //window.localStorage.setItem('tags', JSON.stringify(tags));
         }
+        // eslint-disable-next-line
     }, deps); //不可变数据
 };
 
