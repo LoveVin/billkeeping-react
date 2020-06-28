@@ -31,6 +31,12 @@ function Money() {
         });
     };
     const submit = () => {
+        if (selected.tagIds.length === 0) {
+            return alert('请至少选择一个标签！');
+        }
+        if (selected.amount === 0) {
+            return alert('请输入金额！');
+        }
         addRecord(selected);
         alert('记账成功！');
         setSelected(defaultFormDate);
