@@ -11,6 +11,8 @@ import {Space} from '../components/Space';
 const TagList = styled.ol`
   font-size: 16px;
   background: white;
+  flex-shrink: 1;
+  overflow: auto;
   > li{
     border-bottom: 1px solid #e5e5e5;
     line-height: 20px;
@@ -43,6 +45,9 @@ function Tags() {
                 <Space/>
                 <Space/>
                 <Button onClick={addTag}>新增标签</Button>
+                <Space/>
+                <Space/>
+                <Space/>
             </Center>
         </Layout>
     );

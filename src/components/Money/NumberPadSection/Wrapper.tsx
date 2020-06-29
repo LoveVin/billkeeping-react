@@ -41,6 +41,15 @@ const Wrapper = styled.section`
         border-right: none;
       }
     }
+    
+    @media (max-height: 500px){
+      > button{
+        height: 48px;
+        &.ok{
+          height: 80px;
+        }
+      }
+    }
   }
 `;
 
